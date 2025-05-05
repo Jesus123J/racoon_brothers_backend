@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="racoon_brothers-billing" />
+        <module name="racoon_brothers-config" />
+        <module name="racoon_brothers-product" />
+        <module name="racoon_brothers-gateway" />
+        <module name="racoon_brothers-order" />
+        <module name="racoon_brothers-employee" />
+        <module name="racoon_brothers-eureka" />
+        <module name="racoon_brothers-customer" />
+        <module name="racoon_brothers-management" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="racoon_brothers-billing" options="-parameters" />
+      <module name="racoon_brothers-config" options="-parameters" />
+      <module name="racoon_brothers-customer" options="-parameters" />
+      <module name="racoon_brothers-employee" options="-parameters" />
+      <module name="racoon_brothers-eureka" options="-parameters" />
+      <module name="racoon_brothers-gateway" options="-parameters" />
+      <module name="racoon_brothers-management" options="-parameters" />
+      <module name="racoon_brothers-order" options="-parameters" />
+      <module name="racoon_brothers-product" options="-parameters" />
+    </option>
+  </component>
+</project>
